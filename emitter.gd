@@ -16,7 +16,7 @@ func _on_timer_timeout():
 	var ball_container = get_tree().get_nodes_in_group("ball_container")[0]
 	ball_container.add_child(ball)
 	
-	angle += 90
+	angle += 120
 	angle %= 360
 
 

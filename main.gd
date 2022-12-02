@@ -10,9 +10,9 @@ func _ready():
 	
 	yield(get_tree().create_timer(5), "timeout")
 	
-	spawn_emitter("bell", Vector2(0.3, 0.2))
+	spawn_emitter("bell", Vector2(0.4, 0.2))
 	spawn_emitter("kick", Vector2(0.3, 0.6))
-	spawn_emitter("snare", Vector2(0.7, 0.2))
+	spawn_emitter("snare", Vector2(0.6, 0.2))
 	spawn_emitter("laser", Vector2(0.7, 0.6))
 	
 	
